@@ -19,10 +19,10 @@
     }
   },
   "targets": [
-    { "target": "darwin-arm64", "url": "https://github.com/PawSQL/dbx-plugin-pawsql/releases/download/v1.0.0/com.pawsql.dbx-1.0.0-darwin-arm64.dbxp", "sha256": "22dcac27ae5739a9f006eb97562e4dc97af7c28300c78d98b53aaaea05ba5a80", "size": 4240007 },
-    { "target": "darwin-x64",   "url": "https://github.com/PawSQL/dbx-plugin-pawsql/releases/download/v1.0.0/com.pawsql.dbx-1.0.0-darwin-x64.dbxp",   "sha256": "182fe090046b7f8f9d50205f119126e88506e418b4b3d8fc7c83a4adc8f904eb", "size": 4451043 },
-    { "target": "linux-arm64",  "url": "https://github.com/PawSQL/dbx-plugin-pawsql/releases/download/v1.0.0/com.pawsql.dbx-1.0.0-linux-arm64.dbxp",  "sha256": "32c63e184aca567270e27bea34c3e78d5ccba1b670ec7162cee79b7b5ac46330", "size": 4240759 },
-    { "target": "linux-x64",    "url": "https://github.com/PawSQL/dbx-plugin-pawsql/releases/download/v1.0.0/com.pawsql.dbx-1.0.0-linux-x64.dbxp",    "sha256": "2cc041fbdd5c9adcda973ea9fd5b5235cb6c4e492e86a8a7e3f457aa33012e7b", "size": 4523238 },
-    { "target": "windows-x64",  "url": "https://github.com/PawSQL/dbx-plugin-pawsql/releases/download/v1.0.0/com.pawsql.dbx-1.0.0-windows-x64.dbxp",  "sha256": "5de44d9050eac4311278d4f8f2b52ad79e3038967dcfb2755fff62dbbe3adeb8", "size": 4534263 }
+    { "target": "darwin-arm64", "url": "https://github.com/PawSQL/dbx-plugin-pawsql/releases/download/v1.0.0/com.pawsql.dbx-1.0.0-darwin-arm64.dbxp", "sha256": "dd61f477089b0896b691ea66ef9e1cdda5added2cd8d11d8e96d219f48458fc1", "size": 4239602 },
+    { "target": "darwin-x64",   "url": "https://github.com/PawSQL/dbx-plugin-pawsql/releases/download/v1.0.0/com.pawsql.dbx-1.0.0-darwin-x64.dbxp",   "sha256": "6d92b1ac26d5917937c2491b9411b28a7fbbf488c007217a56b22072decea562", "size": 4450636 },
+    { "target": "linux-arm64",  "url": "https://github.com/PawSQL/dbx-plugin-pawsql/releases/download/v1.0.0/com.pawsql.dbx-1.0.0-linux-arm64.dbxp",  "sha256": "7c08856e062becfa9e8a27fc2e4bce225b9478ed73a459409537c1cf82de8ab3", "size": 4240356 },
+    { "target": "linux-x64",    "url": "https://github.com/PawSQL/dbx-plugin-pawsql/releases/download/v1.0.0/com.pawsql.dbx-1.0.0-linux-x64.dbxp",    "sha256": "929e839eb77cdf2878654ee47a2148fc83291cca8c4116e18f4b2ef81889b764", "size": 4522830 },
+    { "target": "windows-x64",  "url": "https://github.com/PawSQL/dbx-plugin-pawsql/releases/download/v1.0.0/com.pawsql.dbx-1.0.0-windows-x64.dbxp",  "sha256": "83243450ebd983dc6a4b0ec2e819dfed5ec3a60757d71bd676d9c5028582f0d9", "size": 4533856 }
   ]
 }
