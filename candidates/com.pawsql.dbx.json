@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "com.pawsql.dbx",
+  "publisher": "pawsql",
+  "version": "1.0.0",
+  "releaseNotes": "1.0.0：首个版本。粘贴 SQL，选择数据库类型，即可获取 PawSQL 优化建议——规则违规、推荐索引、SQL 重写与 What-If 校验报告。支持匿名与账号登录两种模式，所有网络请求经 Go 原生 sidecar 完成。",
+  "name": "PawSQL SQL Optimizer",
+  "description": "Paste SQL and get PawSQL optimization recommendations: rule violations, index DDLs, rewrites and a What-If validation report.",
+  "icon": "https://raw.githubusercontent.com/PawSQL/dbx-plugin-pawsql/v1.0.0/assets/plugin.svg",
+  "tags": ["sql", "optimization", "database"],
+  "permissions": ["host.events"],
+  "source": "https://github.com/PawSQL/dbx-plugin-pawsql/tree/v1.0.0",
+  "homepage": "https://github.com/PawSQL/dbx-plugin-pawsql",
+  "license": "Apache-2.0",
+  "localizations": {
+    "zh-CN": {
+      "name": "PawSQL SQL 优化器",
+      "description": "粘贴 SQL，获取 PawSQL 优化建议：规则违规、推荐索引、SQL 重写与 What-If 校验报告。"
+    }
+  },
+  "targets": [
+    { "target": "darwin-arm64", "url": "https://github.com/PawSQL/dbx-plugin-pawsql/releases/download/v1.0.0/com.pawsql.dbx-1.0.0-darwin-arm64.dbxp", "sha256": "af099eb76e6bf84b6177aaee366e7f9a91a4c823168b6c3a1dc9b062ab1184f2", "size": 4238929 },
+    { "target": "darwin-x64",   "url": "https://github.com/PawSQL/dbx-plugin-pawsql/releases/download/v1.0.0/com.pawsql.dbx-1.0.0-darwin-x64.dbxp",   "sha256": "52cd76b61a3e31c72d8b69703c099983e60ccd33941d8f609cc312f85e9d898a", "size": 4449962 },
+    { "target": "linux-arm64",  "url": "https://github.com/PawSQL/dbx-plugin-pawsql/releases/download/v1.0.0/com.pawsql.dbx-1.0.0-linux-arm64.dbxp",  "sha256": "8f85508662a1d987696752c01ee0d9fdfa7015bdb1395d8016c90d7d5dbdeb2d", "size": 4239681 },
+    { "target": "linux-x64",    "url": "https://github.com/PawSQL/dbx-plugin-pawsql/releases/download/v1.0.0/com.pawsql.dbx-1.0.0-linux-x64.dbxp",    "sha256": "79ae33c56adda10cf3f95d324c5a5582c057d4ae3cc8ca2eb62ea526318ec4ed", "size": 4522160 },
+    { "target": "windows-x64",  "url": "https://github.com/PawSQL/dbx-plugin-pawsql/releases/download/v1.0.0/com.pawsql.dbx-1.0.0-windows-x64.dbxp",  "sha256": "0e59a46b50b167bdde0afd42554245a6dd71dacfd2ea937a6ff8d4ada3efa061", "size": 4533185 }
+  ]
+}
